@@ -4081,7 +4081,7 @@
   "faucets": [],
   "infoURL": "https://mdgl.io"
 }, {
-  "name": "Shardeum Liberty 1.3",
+  "name": "Shardeum Liberty",
   "chainId": 8080,
   "shortName": "ShardeumSHM",
   "networkId": 8080,
@@ -5273,9 +5273,9 @@
     "symbol": "RESIN",
     "decimals": 18
   },
-  "rpc": ["https://mainnet.resincoin.ml"],
+  "rpc": ["https://mainnet.resincoin.dev"],
   "faucets": [],
-  "infoURL": "https://resincoin.ml"
+  "infoURL": "https://resincoin.dev"
 }, {
   "name": "Firenze test network",
   "chainId": 78110,
@@ -5315,6 +5315,19 @@
   "rpc": ["https://mainnet-rpc.ivarex.com"],
   "faucets": ["https://faucet.ivarex.com/"],
   "infoURL": "https://ivarex.com"
+}, {
+  "name": "Beverly Hills",
+  "chainId": 90210,
+  "shortName": "bvhl",
+  "networkId": 90210,
+  "nativeCurrency": {
+    "name": "Beverly Hills Testnet Ether",
+    "symbol": "BVE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.beverlyhills.ethdevops.io:8545"],
+  "faucets": ["https://faucet.beverlyhills.ethdevops.io"],
+  "infoURL": "https://beverlyhills.ethdevops.io"
 }, {
   "name": "Lambda Testnet",
   "chainId": 92001,
