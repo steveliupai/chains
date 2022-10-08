@@ -5329,6 +5329,19 @@
   "faucets": ["https://faucet.beverlyhills.ethdevops.io"],
   "infoURL": "https://beverlyhills.ethdevops.io"
 }, {
+  "name": "Lambda Mainnet",
+  "chainId": 92000,
+  "shortName": "lambda-mainnet",
+  "networkId": 92000,
+  "nativeCurrency": {
+    "name": "Lamb",
+    "symbol": "LAMB",
+    "decimals": 18
+  },
+  "rpc": ["https://evm.lambda.im/"],
+  "faucets": [],
+  "infoURL": "https://lambda.im"
+}, {
   "name": "Lambda Testnet",
   "chainId": 92001,
   "shortName": "lambda-testnet",
@@ -5339,7 +5352,7 @@
     "decimals": 18
   },
   "rpc": ["https://evm.lambda.top/"],
-  "faucets": ["https://faucet.lambda.top"],
+  "faucets": [],
   "infoURL": "https://lambda.im"
 }, {
   "name": "UB Smart Chain(testnet)",

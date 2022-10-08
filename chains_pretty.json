@@ -7611,10 +7611,31 @@
     "standard": "none"
   }]
 }, {
+  "name": "Lambda Mainnet",
+  "chain": "Lambda",
+  "rpc": ["https://evm.lambda.im/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Lamb",
+    "symbol": "LAMB",
+    "decimals": 18
+  },
+  "infoURL": "https://lambda.im",
+  "shortName": "lambda-mainnet",
+  "chainId": 92000,
+  "networkId": 92000,
+  "icon": "lambda",
+  "explorers": [{
+    "name": "Lambda EVM Explorer",
+    "url": "https://explorer.lambda.im",
+    "standard": "EIP3091",
+    "icon": "lambda"
+  }]
+}, {
   "name": "Lambda Testnet",
   "chain": "Lambda",
   "rpc": ["https://evm.lambda.top/"],
-  "faucets": ["https://faucet.lambda.top"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "test-Lamb",
     "symbol": "LAMB",
