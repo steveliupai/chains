@@ -2,7 +2,7 @@
   "name": "Lambda Testnet",
   "chain": "Lambda",
   "rpc": ["https://evm.lambda.top/"],
-  "faucets": [],
+  "faucets": ["https://faucet.lambda.top"],
   "nativeCurrency": {
     "name": "test-Lamb",
     "symbol": "LAMB",

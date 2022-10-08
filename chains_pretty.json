@@ -2468,6 +2468,10 @@
   "chainId": 288,
   "networkId": 288,
   "explorers": [{
+    "name": "Bobascan",
+    "url": "https://bobascan.com",
+    "standard": "none"
+  }, {
     "name": "Blockscout",
     "url": "https://blockexplorer.boba.network",
     "standard": "none"
@@ -3135,21 +3139,6 @@
     "url": "https://testnet.bcsdev.io",
     "standard": "EIP3091"
   }]
-}, {
-  "name": "Factory 127 Testnet",
-  "chain": "FETH",
-  "rpc": [],
-  "faucets": [],
-  "nativeCurrency": {
-    "name": "Factory 127 Token",
-    "symbol": "FETH",
-    "decimals": 18
-  },
-  "infoURL": "https://www.factory127.com",
-  "shortName": "tfeth",
-  "chainId": 721,
-  "networkId": 721,
-  "slip44": 721
 }, {
   "name": "Lycan Chain",
   "chain": "LYC",
@@ -6167,6 +6156,25 @@
   "chainId": 10101,
   "networkId": 10101
 }, {
+  "name": "0XTade",
+  "chain": "0XTade Chain",
+  "rpc": ["https://node.0xtchain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "0XT",
+    "symbol": "0XT",
+    "decimals": 18
+  },
+  "infoURL": "https://www.0xtrade.finance/",
+  "shortName": "0xt",
+  "chainId": 10248,
+  "networkId": 10248,
+  "explorers": [{
+    "name": "0xtrade Scan",
+    "url": "https://www.0xtscan.com",
+    "standard": "none"
+  }]
+}, {
   "name": "CryptoCoinPay",
   "chain": "CCP",
   "rpc": ["http://node106.cryptocoinpay.info:8545", "ws://node106.cryptocoinpay.info:8546"],
@@ -6897,7 +6905,7 @@
 }, {
   "name": "Celo Mainnet",
   "chainId": 42220,
-  "shortName": "CELO",
+  "shortName": "celo",
   "chain": "CELO",
   "networkId": 42220,
   "nativeCurrency": {
@@ -6909,6 +6917,10 @@
   "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
   "infoURL": "https://docs.celo.org/",
   "explorers": [{
+    "name": "Celoscan",
+    "url": "https://celoscan.io",
+    "standard": "EIP3091"
+  }, {
     "name": "blockscout",
     "url": "https://explorer.celo.org",
     "standard": "none"
@@ -7506,6 +7518,7 @@
 }, {
   "name": "ResinCoin Mainnet",
   "chain": "RESIN",
+  "icon": "resincoin",
   "rpc": ["https://mainnet.resincoin.dev"],
   "faucets": [],
   "nativeCurrency": {
@@ -7598,31 +7611,10 @@
     "standard": "none"
   }]
 }, {
-  "name": "Lambda Mainnet",
-  "chain": "Lambda",
-  "rpc": ["https://evm.lambda.im/"],
-  "faucets": [],
-  "nativeCurrency": {
-    "name": "Lamb",
-    "symbol": "LAMB",
-    "decimals": 18
-  },
-  "infoURL": "https://lambda.im",
-  "shortName": "lambda-mainnet",
-  "chainId": 92000,
-  "networkId": 92000,
-  "icon": "lambda",
-  "explorers": [{
-    "name": "Lambda EVM Explorer",
-    "url": "https://explorer.lambda.im",
-    "standard": "EIP3091",
-    "icon": "lambda"
-  }]
-}, {
   "name": "Lambda Testnet",
   "chain": "Lambda",
   "rpc": ["https://evm.lambda.top/"],
-  "faucets": [],
+  "faucets": ["https://faucet.lambda.top"],
   "nativeCurrency": {
     "name": "test-Lamb",
     "symbol": "LAMB",
