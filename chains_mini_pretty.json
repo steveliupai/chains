@@ -177,7 +177,7 @@
     "symbol": "FLR",
     "decimals": 18
   },
-  "rpc": ["https://flare-api.flare.network/ext/C/rpc", "https://flare.rpc.thirdweb.com", "https://flare-bundler.etherspot.io", "https://rpc.ankr.com/flare", "https://rpc.ftso.au/flare", "https://flare.enosys.global/ext/C/rpc", "https://flare.solidifi.app/ext/C/rpc"],
+  "rpc": ["https://flare-api.flare.network/ext/C/rpc", "https://flare.rpc.thirdweb.com", "https://flare-bundler.etherspot.io", "https://rpc.ankr.com/flare", "https://01-gravelines-003-01.rpc.tatum.io/ext/bc/C/rpc", "https://01-vinthill-003-02.rpc.tatum.io/ext/bc/C/rpc", "https://rpc.ftso.au/flare", "https://flare.enosys.global/ext/C/rpc", "https://flare.solidifi.app/ext/C/rpc"],
   "faucets": [],
   "infoURL": "https://flare.network"
 }, {
@@ -203,7 +203,7 @@
     "symbol": "CFLR",
     "decimals": 18
   },
-  "rpc": ["https://coston-api.flare.network/ext/C/rpc", "https://flare-testnet-coston.rpc.thirdweb.com", "https://coston.enosys.global/ext/C/rpc"],
+  "rpc": ["https://coston-api.flare.network/ext/C/rpc", "https://songbird-testnet-coston.rpc.thirdweb.com", "https://01-gravelines-004-01.rpc.tatum.io/ext/bc/C/rpc", "https://02-chicago-004-02.rpc.tatum.io/ext/bc/C/rpc", "https://02-tokyo-004-03.rpc.tatum.io/ext/bc/C/rpc", "https://coston.enosys.global/ext/C/rpc"],
   "faucets": ["https://faucet.flare.network"],
   "infoURL": "https://flare.network"
 }, {
@@ -242,7 +242,7 @@
     "symbol": "SGB",
     "decimals": 18
   },
-  "rpc": ["https://songbird-api.flare.network/ext/C/rpc", "https://rpc.ftso.au/songbird", "https://songbird.enosys.global/ext/C/rpc", "https://songbird.solidifi.app/ext/C/rpc"],
+  "rpc": ["https://songbird-api.flare.network/ext/C/rpc", "https://01-gravelines-006-01.rpc.tatum.io/ext/bc/C/rpc", "https://01-vinthill-006-02.rpc.tatum.io/ext/bc/C/rpc", "https://02-tokyo-006-03.rpc.tatum.io/ext/bc/C/rpc", "https://rpc.ftso.au/songbird", "https://songbird.enosys.global/ext/C/rpc", "https://songbird.solidifi.app/ext/C/rpc"],
   "faucets": [],
   "infoURL": "https://flare.network"
 }, {
@@ -1477,7 +1477,7 @@
     "symbol": "C2FLR",
     "decimals": 18
   },
-  "rpc": ["https://coston2-api.flare.network/ext/C/rpc", "https://flare-testnet-coston2.rpc.thirdweb.com", "https://flaretestnet-bundler.etherspot.io", "https://coston2.enosys.global/ext/C/rpc"],
+  "rpc": ["https://coston2-api.flare.network/ext/C/rpc", "https://flare-testnet-coston2.rpc.thirdweb.com", "https://flaretestnet-bundler.etherspot.io", "https://01-gravelines-005-01.rpc.tatum.io/ext/bc/C/rpc", "https://02-chicago-005-02.rpc.tatum.io/ext/bc/C/rpc", "https://02-tokyo-005-03.rpc.tatum.io/ext/bc/C/rpc", "https://coston2.enosys.global/ext/C/rpc"],
   "faucets": ["https://faucet.flare.network"],
   "infoURL": "https://flare.network"
 }, {
@@ -1750,9 +1750,9 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.public-0138.defi-oracle.io", "wss://rpc.public-0138.defi-oracle.io"],
+  "rpc": ["https://rpc.defi-oracle.io", "wss://wss.defi-oracle.io"],
   "faucets": [],
-  "infoURL": "https://defi-oracle.io/"
+  "infoURL": "https://info.defi-oracle.io/"
 }, {
   "name": "WoopChain Mainnet",
   "chainId": 139,
@@ -3093,6 +3093,19 @@
   "faucets": ["https://pipa.lisinski.online"],
   "infoURL": "https://lisinski.online"
 }, {
+  "name": "CamDL Testnet",
+  "chainId": 395,
+  "shortName": "camdl-testnet",
+  "networkId": 395,
+  "nativeCurrency": {
+    "name": "CADL",
+    "symbol": "CADL",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc1.testnet.camdl.gov.kh/"],
+  "faucets": ["https://faucet.testnet.camdl.gov.kh/"],
+  "infoURL": "https://camdl.gov.kh/"
+}, {
   "name": "Nativ3 Mainnet",
   "chainId": 399,
   "shortName": "N3",
@@ -4406,6 +4419,19 @@
   "faucets": [],
   "infoURL": "https://decentrabone.com"
 }, {
+  "name": "TAPROOT Mainnet",
+  "chainId": 911,
+  "shortName": "TAPROOT-Mainnet",
+  "networkId": 911,
+  "nativeCurrency": {
+    "name": "TBTC",
+    "symbol": "TBTC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.taprootchain.io"],
+  "faucets": [],
+  "infoURL": "https://taprootchain.io"
+}, {
   "name": "Rinia Testnet",
   "chainId": 917,
   "shortName": "tfire",
@@ -4974,7 +5000,7 @@
     "symbol": "HEART",
     "decimals": 18
   },
-  "rpc": ["https://jsonrpc.humans.nodestake.top", "https://humans-mainnet-evm.itrocket.net", "https://humans-evm-rpc.staketab.org:443", "https://evm.humans.stakepool.dev.br", "https://mainnet-humans-evm.konsortech.xyz", "https://evm-rpc.mainnet.humans.zone", "https://json-rpc.humans.bh.rocks"],
+  "rpc": ["https://jsonrpc.humans.nodestake.top", "https://humans-mainnet-evm.itrocket.net", "https://humans-evm-rpc.staketab.org:443", "https://evm.humans.stakepool.dev.br", "https://mainnet-humans-evm.konsortech.xyz", "https://evm-rpc.mainnet.humans.zone", "https://json-rpc.humans.bh.rocks", "https://evm-rpc.humans.huginn.tech"],
   "faucets": [],
   "infoURL": "https://humans.ai"
 }, {
@@ -8787,6 +8813,19 @@
   "faucets": [],
   "infoURL": "https://www.superloyal.com/"
 }, {
+  "name": "Azra Testnet",
+  "chainId": 5106,
+  "shortName": "azra-testnet",
+  "networkId": 5106,
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-azra-testnet-6hz86owb1n.t.conduit.xyz"],
+  "faucets": [],
+  "infoURL": "https://azragames.com"
+}, {
   "name": "Bahamut",
   "chainId": 5165,
   "shortName": "ftn",
@@ -8891,6 +8930,19 @@
   "faucets": ["https://faucet.tritanium.network"],
   "infoURL": "https://tritanium.network"
 }, {
+  "name": "Egochain",
+  "chainId": 5439,
+  "shortName": "egax",
+  "networkId": 5439,
+  "nativeCurrency": {
+    "name": "EGAX",
+    "symbol": "EGAX",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.egochain.org"],
+  "faucets": [],
+  "infoURL": "https://docs.egochain.org/"
+}, {
   "name": "VEX EVM TESTNET",
   "chainId": 5522,
   "shortName": "VEX",
@@ -8955,6 +9007,19 @@
   "rpc": ["https://opbnb-testnet-rpc.bnbchain.org", "https://opbnb-testnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3", "wss://opbnb-testnet.nodereal.io/ws/v1/64a9df0874fb4a93b9d0a3849de012d3", "https://opbnb-testnet.nodereal.io/v1/e9a36765eb8a40b9bd12e680a1fd2bc5", "wss://opbnb-testnet.nodereal.io/ws/v1/e9a36765eb8a40b9bd12e680a1fd2bc5", "https://opbnb-testnet-rpc.publicnode.com", "wss://opbnb-testnet-rpc.publicnode.com"],
   "faucets": ["https://testnet.bnbchain.org/faucet-smart"],
   "infoURL": "https://opbnb.bnbchain.org/en"
+}, {
+  "name": "Arcturus Testneet",
+  "chainId": 5615,
+  "shortName": "arcturus-testnet",
+  "networkId": 5615,
+  "nativeCurrency": {
+    "name": "tARC",
+    "symbol": "tARC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.arcturuschain.io/"],
+  "faucets": ["https://faucet.arcturuschain.io"],
+  "infoURL": "https://arcturuschain.io"
 }, {
   "name": "Arcturus Chain Testnet",
   "chainId": 5616,
@@ -9059,6 +9124,19 @@
   "rpc": ["https://proxy.wegochain.io", "http://wallet.wegochain.io:7764"],
   "faucets": [],
   "infoURL": "https://www.wegochain.io"
+}, {
+  "name": "BounceBit Testnet",
+  "chainId": 6000,
+  "shortName": "bouncebit-testnet",
+  "networkId": 6000,
+  "nativeCurrency": {
+    "name": "BounceBit",
+    "symbol": "BB",
+    "decimals": 18
+  },
+  "rpc": ["https://fullnode-testnet.bouncebitapi.com/"],
+  "faucets": [],
+  "infoURL": "https://bouncebit.io"
 }, {
   "name": "Tres Testnet",
   "chainId": 6065,
@@ -9592,6 +9670,19 @@
   "rpc": ["https://validator-mainnet.orenium.org", "https://rpc-oracle-mainnet.orenium.org", "https://portalmainnet.orenium.org"],
   "faucets": [],
   "infoURL": "https://orenium.org"
+}, {
+  "name": "OpenEX LONG Testnet",
+  "chainId": 7798,
+  "shortName": "oex",
+  "networkId": 7798,
+  "nativeCurrency": {
+    "name": "USDT Testnet",
+    "symbol": "USDT",
+    "decimals": 18
+  },
+  "rpc": ["https://long.rpc.openex.network/"],
+  "faucets": ["https://long.hub.openex.network/faucet"],
+  "infoURL": "https://openex.network"
 }, {
   "name": "MaalChain Testnet",
   "chainId": 7860,
@@ -10568,6 +10659,19 @@
   "faucets": [],
   "infoURL": "https://larissa.network"
 }, {
+  "name": "Espento Mainnet",
+  "chainId": 9911,
+  "shortName": "spent",
+  "networkId": 9911,
+  "nativeCurrency": {
+    "name": "ESPENTO",
+    "symbol": "SPENT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.escscan.com/"],
+  "faucets": [],
+  "infoURL": "https://espento.network"
+}, {
   "name": "Mind Smart Chain Testnet",
   "chainId": 9977,
   "shortName": "tMIND",
@@ -10984,13 +11088,13 @@
   "faucets": ["https://faucet.sardisnetwork.com"],
   "infoURL": "https://mysardis.com"
 }, {
-  "name": "SanR Chain",
+  "name": "Santiment Intelligence Network",
   "chainId": 11888,
   "shortName": "SAN",
   "networkId": 11888,
   "nativeCurrency": {
-    "name": "nSAN",
-    "symbol": "nSAN",
+    "name": "SANR",
+    "symbol": "SANR",
     "decimals": 18
   },
   "rpc": ["https://sanrchain-node.santiment.net"],
@@ -11204,6 +11308,19 @@
   "rpc": ["https://rpc.phoenixplorer.com/"],
   "faucets": [],
   "infoURL": "https://cryptophoenix.org/phoenix"
+}, {
+  "name": "Masa",
+  "chainId": 13396,
+  "shortName": "masa",
+  "networkId": 13396,
+  "nativeCurrency": {
+    "name": "Masa Token",
+    "symbol": "MASA",
+    "decimals": 18
+  },
+  "rpc": ["https://subnets.avax.network/masanetwork/mainnet/rpc"],
+  "faucets": [],
+  "infoURL": "https://masa.finance"
 }, {
   "name": "Immutable zkEVM Testnet",
   "chainId": 13473,
@@ -11543,9 +11660,9 @@
   "faucets": ["https://faucet.oneg8.network"],
   "infoURL": "https://oneg8.one"
 }, {
-  "name": "unreal",
+  "name": "unreal-old",
   "chainId": 18231,
-  "shortName": "unreal",
+  "shortName": "unreal-old",
   "networkId": 18231,
   "nativeCurrency": {
     "name": "unreal Ether",
@@ -11553,6 +11670,19 @@
     "decimals": 18
   },
   "rpc": ["https://rpc.unreal.gelato.digital", "wss://ws.unreal.gelato.digital"],
+  "faucets": [],
+  "infoURL": "https://raas.gelato.network/rollups/details/public/unreal"
+}, {
+  "name": "unreal",
+  "chainId": 18233,
+  "shortName": "unreal",
+  "networkId": 18233,
+  "nativeCurrency": {
+    "name": "unreal Ether",
+    "symbol": "reETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.unreal-orbit.gelato.digital", "wss://ws.unreal-orbit.gelato.digital"],
   "faucets": [],
   "infoURL": "https://raas.gelato.network/rollups/details/public/unreal"
 }, {
@@ -12531,6 +12661,19 @@
   "faucets": ["http://athfaucet.ava.network//?address=${ADDRESS}"],
   "infoURL": "https://athereum.ava.network"
 }, {
+  "name": "Hemi Network",
+  "chainId": 43111,
+  "shortName": "hemi",
+  "networkId": 43111,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://hemi.xyz"
+}, {
   "name": "Avalanche Fuji Testnet",
   "chainId": 43113,
   "shortName": "Fuji",
@@ -12595,6 +12738,19 @@
   "rpc": ["https://rpc-02.frenscan.io"],
   "faucets": [],
   "infoURL": "https://frenchain.app"
+}, {
+  "name": "Quantum Network",
+  "chainId": 44445,
+  "shortName": "QTM",
+  "networkId": 44445,
+  "nativeCurrency": {
+    "name": "Quantum",
+    "symbol": "QTM",
+    "decimals": 18
+  },
+  "rpc": ["https://rpcqtm.avescoin.io"],
+  "faucets": [],
+  "infoURL": "https://avescoin.io/"
 }, {
   "name": "Celo Alfajores Testnet",
   "chainId": 44787,
@@ -13285,6 +13441,19 @@
   "faucets": [],
   "infoURL": "https://thinkium.net/"
 }, {
+  "name": "Proof of Play - Apex",
+  "chainId": 70700,
+  "shortName": "pop-apex",
+  "networkId": 70700,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.apex.proofofplay.com"],
+  "faucets": [],
+  "infoURL": "https://proofofplay.com"
+}, {
   "name": "GuapcoinX",
   "chainId": 71111,
   "shortName": "GuapX",
@@ -13336,6 +13505,19 @@
   "rpc": ["https://v1.mainnet.godwoken.io/rpc"],
   "faucets": [],
   "infoURL": "https://www.nervos.org"
+}, {
+  "name": "CAGA crypto Ankara testnet",
+  "chainId": 72778,
+  "shortName": "caga",
+  "networkId": 72778,
+  "nativeCurrency": {
+    "name": "Caga",
+    "symbol": "CAGA",
+    "decimals": 18
+  },
+  "rpc": ["https://www.ankara-cagacrypto.com", "wss://wss.ankara-cagacrypto.com"],
+  "faucets": [],
+  "infoURL": "https://www.cagacrypto.com/"
 }, {
   "name": "Grok Chain Mainnet",
   "chainId": 72992,
@@ -14197,7 +14379,7 @@
 }, {
   "name": "Masa Testnet",
   "chainId": 103454,
-  "shortName": "masa",
+  "shortName": "masatest",
   "networkId": 103454,
   "nativeCurrency": {
     "name": "Masa Token",
@@ -14376,6 +14558,19 @@
   "rpc": ["https://rpc.main.siberium.net", "https://rpc.main.siberium.net.ru"],
   "faucets": [],
   "infoURL": "https://siberium.net"
+}, {
+  "name": "re.al",
+  "chainId": 111188,
+  "shortName": "re-al",
+  "networkId": 111188,
+  "nativeCurrency": {
+    "name": "re.al Ether",
+    "symbol": "reETH",
+    "decimals": 18
+  },
+  "rpc": ["https://real.drpc.org", "wss://real.drpc.org"],
+  "faucets": [],
+  "infoURL": "https://re.al"
 }, {
   "name": "Metachain One Mainnet",
   "chainId": 112358,
@@ -14594,7 +14789,7 @@
     "symbol": "BTC",
     "decimals": 18
   },
-  "rpc": ["https://testnet-rpc.bitlayer.org", "wss://testnet-ws.bitlayer.org", "https://testnet-rpc.bitlayer-rpc.com", "wss://testnet-ws.bitlayer-rpc.com"],
+  "rpc": ["https://testnet-rpc.bitlayer.org", "wss://testnet-ws.bitlayer.org", "https://testnet-rpc.bitlayer-rpc.com", "wss://testnet-ws.bitlayer-rpc.com", "https://rpc.ankr.com/bitlayer_testnet"],
   "faucets": ["https://www.bitlayer.org/faucet"],
   "infoURL": "https://docs.bitlayer.org/"
 }, {
@@ -14662,6 +14857,19 @@
   "rpc": ["https://x1-devnet.xen.network"],
   "faucets": [],
   "infoURL": "https://docs.xen.network/x1/"
+}, {
+  "name": "YMTECH-BESU Testnet",
+  "chainId": 202401,
+  "shortName": "YMTECH-BESU",
+  "networkId": 202401,
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["http://39.119.118.216:8545"],
+  "faucets": [],
+  "infoURL": "https://www.ymtech.co.kr"
 }, {
   "name": "Jellie",
   "chainId": 202624,
@@ -14935,6 +15143,19 @@
   "rpc": ["https://socialsmartchain.digitalnext.business"],
   "faucets": [],
   "infoURL": "https://digitalnext.business/SocialSmartChain"
+}, {
+  "name": "Zillion Sepolia Testnet",
+  "chainId": 282828,
+  "shortName": "zillsep",
+  "networkId": 282828,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://sepolia.zillnet.io/rpc"],
+  "faucets": [],
+  "infoURL": "https://zillnet.io"
 }, {
   "name": "Filecoin - Calibration testnet",
   "chainId": 314159,
@@ -15508,16 +15729,16 @@
   "faucets": ["https://testnet-faucet.helachain.com"],
   "infoURL": "https://helalabs.com"
 }, {
-  "name": "Galadriel Testnet",
+  "name": "Galadriel Devnet",
   "chainId": 696969,
-  "shortName": "galadriel-testnet",
+  "shortName": "galadriel-devnet",
   "networkId": 696969,
   "nativeCurrency": {
-    "name": "Galadriel Testnet token",
+    "name": "Galadriel Devnet token",
     "symbol": "GAL",
     "decimals": 18
   },
-  "rpc": ["https://testnet.galadriel.com"],
+  "rpc": ["https://devnet.galadriel.com"],
   "faucets": ["https://docs.galadriel.com/faucet"],
   "infoURL": "https://galadriel.com"
 }, {
@@ -15546,6 +15767,19 @@
   "rpc": ["https://evm-rpc-arctic-1.sei-apis.com", "https://evm-rpc.arctic-1.seinetwork.io"],
   "faucets": ["https://sei-faucet.nima.enterprises", "https://sei-evm.faucetme.pro"],
   "infoURL": "https://www.sei.io"
+}, {
+  "name": "Hemi Sepolia",
+  "chainId": 743111,
+  "shortName": "hemi-sep",
+  "networkId": 743111,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.rpc.hemi.network/rpc"],
+  "faucets": [],
+  "infoURL": "https://hemi.xyz"
 }, {
   "name": "Bear Network Chain Testnet",
   "chainId": 751230,
@@ -15806,6 +16040,19 @@
   "rpc": ["https://mainnet-rpc.ecroxscan.com/"],
   "faucets": [],
   "infoURL": "https://ecroxcoin.io/"
+}, {
+  "name": "Netmind Chain Testnet",
+  "chainId": 1100789,
+  "shortName": "nmtTest",
+  "networkId": 1100789,
+  "nativeCurrency": {
+    "name": "NMT",
+    "symbol": "NMT",
+    "decimals": 18
+  },
+  "rpc": ["https://testblock.protago-dev.com"],
+  "faucets": [],
+  "infoURL": "https://netmind.ai"
 }, {
   "name": "Tiltyard Subnet",
   "chainId": 1127469,
@@ -16417,6 +16664,19 @@
   "rpc": ["https://pegorpc.com", "https://node1.pegorpc.com", "https://node2.pegorpc.com", "https://node3.pegorpc.com"],
   "faucets": [],
   "infoURL": "https://pego.network"
+}, {
+  "name": "DeBank Sepolia Testnet",
+  "chainId": 20240324,
+  "shortName": "dbkse",
+  "networkId": 20240324,
+  "nativeCurrency": {
+    "name": "DeBank USD",
+    "symbol": "USD",
+    "decimals": 18
+  },
+  "rpc": ["https://sepolia-rpc.testnet.debank.com"],
+  "faucets": [],
+  "infoURL": "https://debank.com"
 }, {
   "name": "Hokum Testnet",
   "chainId": 20482050,
